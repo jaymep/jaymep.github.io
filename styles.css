@@ -1,3 +1,66 @@
+/* Test CSS link
+
+Use CSS to add the following to your site.
+
+  Padding and border added to at least one element
+  Margin added to at least one element
+  At least one centered element (a footer message can be nice for this)
+  A background image on at least one element
+A different font on at least one element
+A few elements styled using a class
+A different color for visited links
+An element styled with an ID
+
+Add at least one media query to improve the responsiveness of your page.
+*/
+
 body {
-  background: pink;
+  background: #ccffff;
+} 
+
+body#home {
+
+}
+
+/* All pictures */
+img {
+  width: 75%;
+  display: block;
+  margin: 0px auto;
+}
+
+figure {
+  display: block;
+  background-color: #e6ffff;
+  border: 2px solid white;
+  padding: 20px 5px 20px 5px;
+}
+
+figcaption {
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-image: url(http://graphicdesignjunction.com/wp-content/uploads/2012/07/background-pattern-41.jpg);
+  border: 3px solid gray;
+  margin: 15px  15px 15px 15px;
+  padding: 5px 5px 5px 5px;
+}
+
+cite {
+  padding-bottom: 20px;
+}
+
+nav {
+  margin-top: 15px;
 }
