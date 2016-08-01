@@ -6,7 +6,9 @@ Use CSS to add the following to your site.
   Margin added to at least one element
   At least one centered element (a footer message can be nice for this)
   A background image on at least one element
-A different font on at least one element
+  A different font on at least one element
+    font-family: 'Scope One', serif;
+    font-family: 'Cutive', serif;
 A few elements styled using a class
 A different color for visited links
 An element styled with an ID
@@ -16,6 +18,7 @@ Add at least one media query to improve the responsiveness of your page.
 
 body {
   background: #ccffff;
+  font-family: 'Scope One', serif;
 } 
 
 body#home {
@@ -43,16 +46,20 @@ figcaption {
 
 h1 {
   text-align: center;
+  font-family: 'Cutive', serif;
 }
 
 h5 {
   text-align: center;
+  font-family: 'Cutive', serif;
 }
 
 footer {
   text-align: center;
   background-image: url(http://graphicdesignjunction.com/wp-content/uploads/2012/07/background-pattern-41.jpg);
-  border: 3px solid gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid gray;
   margin: 15px  15px 15px 15px;
   padding: 5px 5px 5px 5px;
 }
