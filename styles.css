@@ -11,7 +11,7 @@ Use CSS to add the following to your site.
     font-family: 'Cutive', serif;
 A few elements styled using a class
 A different color for visited links
-An element styled with an ID
+  An element styled with an ID
 
 Add at least one media query to improve the responsiveness of your page.
 */
@@ -53,6 +53,14 @@ h1 {
 h5 {
   text-align: center;
   font-family: 'Cutive', serif;
+}
+
+.resource {
+  font-family: 'Sanchez', serif;
+}
+
+.heading {
+  text-decoration: underline;
 }
 
 footer {
