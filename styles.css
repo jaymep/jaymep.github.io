@@ -1,0 +1,104 @@
+/* To-do list at bottom */
+
+body {
+  background: #ccffff;
+  font-family: 'Scope One', serif;
+} 
+
+/* All pictures */
+img {
+  width: 75%;
+  display: block;
+  margin: 0px auto;
+}
+
+/* Index page picture */
+img#home {
+  width: 50%;
+}
+
+figure {
+  display: block;
+  background-color: #e6ffff;
+  border: 2px solid white;
+  padding: 20px 5px 20px 5px;
+}
+
+figcaption {
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Cutive', serif;
+}
+
+h5 {
+  text-align: center;
+  font-family: 'Cutive', serif;
+}
+
+/* Knitting links */
+.resource {
+  font-family: 'Sanchez', serif;
+}
+
+/* Section titles */
+.heading {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background-image: url(http://graphicdesignjunction.com/wp-content/uploads/2012/07/background-pattern-41.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid gray;
+  margin: 15px  15px 15px 15px;
+  padding: 5px 5px 5px 5px;
+}
+
+cite {
+  padding-bottom: 20px;
+}
+
+nav {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Link formatting */
+a {
+  text-decoration: none;
+}
+
+/* Link pseudo-class selector */
+a:visited {
+  color: #FF00FF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Reduce font size as screen width decreases */
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 75%;
+  }
+}
+
+/*
+Use CSS to add the following to your site.
+
+  Padding and border added to at least one element
+  Margin added to at least one element
+  At least one centered element (a footer message can be nice for this)
+  A background image on at least one element
+  A different font on at least one element
+  A few elements styled using a class
+  A different color for visited links
+  An element styled with an ID
+
+  Add at least one media query to improve the responsiveness of your page.
+*/
+
