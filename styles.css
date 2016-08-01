@@ -21,15 +21,16 @@ body {
   font-family: 'Scope One', serif;
 } 
 
-body#home {
-
-}
-
 /* All pictures */
 img {
   width: 75%;
   display: block;
   margin: 0px auto;
+}
+
+/* Index page picture */
+img#home {
+  width: 50%;
 }
 
 figure {
